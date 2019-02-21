@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+
+      /* body{
+        padding: 0 5%;
+        
+      } */
+    </style>
+
+    <title>The MB Blog</title>
+  </head>
+  <body>
+    <!-- container class provides default padding to to applied TAG -->
+    <!-- class="container" -->
+    <div class="container-fluid">
+      <!-- navbar:declarating navigation, navbar-expand-lg: expand navabr only on large screen, navbark-dark: provides dark background class to navbar, bg-primary: provides blue background color to navbar  -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <!-- navbar-brand: this class is used for LOGO or Company NAME -->
+        <a href="#" class="navbar-brand">theMBblog</a>
+        <!-- navbar-toggler: is used to activate Toggle button/icon on small screens to HIDE and SHOW menu, collapse: used to indicate collapsible content to SHOW/HIDE on demand , data-target tag: to target a specific CLASS/ID on clicked -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <!-- navbar-toggler-icon: ICON which we click to SHOW MENU on small screen  -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <!-- collapse: used to indicate collapsible content to SHOW/HIDE on demand  ,navbar-collapse:actual content to be collapsed on SMALL screen  -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- navbar-nav:Used on a <ul> container that contains the list items with links inside a navigation bar ,ml-auto: m->MARGIN l->LEFT auto -->
+          <ul class="navbar-nav ml-auto">
+            <!-- nav-item: used on <li> tag inside navigation bar -->
+            <li class="nav-item">
+              <!-- nav-link: used inside navigation bar to show link -->
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <!-- nav-item: used on <li> tag inside navigation bar -->
+            <li class="nav-item">
+              <!-- nav-link: used inside navigation bar to show link -->
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <!-- nav-item: used on <li> tag inside navigation bar, dropdown: used to create dropdown content/MENU -->
+            <li class="nav-item dropdown">
+              <!-- dropdown-toggle: Used on the button that should hide and show (toggle) the dropdown menu -->
+              <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">Product</a>
+              <!-- dropdown-menu: this contains actual list of items to be dropped -->
+              <div class="dropdown-menu">
+                <!-- dropdown-item: this represents actual dropdown item -->
+                <a href="#" class="dropdown-item">Product-1</a>
+                <a href="#" class="dropdown-item">Product-2</a>
+                <!-- dropdown-divider: This class is used to divide the dropdown CONTENT -->
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">Product-3</a>
+                <a href="#" class="dropdown-item">Product-4</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Content</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- jumbotron: Creates a padded grey box with rounded corners that enlarges the font sizes of the text inside it. Creates a big box for
+         calling extra attention to some special content or information -->
+      <div class="jumbotron">
+        <!-- display-4: used to design HEADING TAGS -->
+        <h1 class="display-4">Simple. Elegent. Awesome.</h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam consequuntur aut 
+          cupiditate odio labore asperiores maxime voluptate voluptatibus, illo molestiae perspiciatis quidem sequi per
+          ferendis minima ex autem animi, doloremque magnam recusandae? Impedit, nisi inventore a iure, reprehenderit
+          sapiente officiis vitae asperiores consequuntur vero, libero porro iusto amet ullam! Dignissimos numquam
+          nulla perferendis dolores officia, eaque eos a aperiam. Architecto corrupti modi maxime eos at, nam corporis 
+          aut, repellendus odio veniam voluptatum molestias assumenda! Nisi autem vitae debitis quidem quis id ab veniam?
+          Mollitia ducimus praesentium possimus, asperiores soluta provident ad eaque a doloribus vero corrupti sit laborum nisi at.
+        </p>
+        <!-- btn: Creates a basic button (gray background and rounded corners), btn-primary: changes background to BLUE color, btn-lg: creates LARGE BUTTON  -->
+        <a class="btn btn-primary btn-lg" href="#">Learn more</a>
+      </div>
+      <!-- row: creates a ROW Container for responsive columns, text-center: to ALIGN TEXT to CENTER -->
+      <div class="row text-center">
+
+        <div class="col-sm-12 col-md-4">
+          <!-- card: creates a DIV box like CARD, mb-4: m->MARGIN size  b->BOTTOM 4->size in terms of boxes out of 12BOXES -->
+          <div class="card mb-4">
+
+            <div class="card-body">
+              <h5 class="card-title">
+                Card Title
+              </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cumque.</p>
+              <a href="#" class="card-link">Another Link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Card Title
+                  </h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cumque.</p>
+                  <a href="#" class="card-link">Another Link</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Card Title
+                  </h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cumque.</p>
+                  <a href="#" class="card-link">Another Link</a>
+                </div>
+              </div>
+        </div>
+        </div>
+        <div class="row mt-sm-4 mt-md-0">
+
+          <div class="col-sm-12 col-md-8 text-sm-center text-md-left">
+            <h3>An Important heading</h3>
+            <!-- lead: this class provides extra PADDING -->
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, repellendus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolore ipsum ab harum exercitationem voluptate commodi quo vel necessitatibus magni sint libero, praesentium deleniti quae similique? Sapiente quasi non quas repellat excepturi cupiditate minima blanditiis ad obcaecati, illum fugiat aspernatur voluptas placeat delectus odit, porro amet veniam, vero impedit reprehenderit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolore ipsum ab harum exercitationem voluptate commodi quo vel necessitatibus magni sint libero, praesentium deleniti quae similique? Sapiente quasi non quas repellat excepturi cupiditate minima blanditiis ad obcaecati, illum fugiat aspernatur voluptas placeat delectus odit, porro amet veniam, vero impedit reprehenderit.</p>
+          </div>
+          <!-- col-sm-12: col->COLUMN sm->SMALL size->12 COLUMNS, col-md-4: md->MEDIUM size->4 COLUMNS -->
+          <div class="col-sm-12 col-md-4">
+            <!-- mb-4: m->MARGIN b->BOTTOM sixe->4columns -->
+            <h3 class="mb-4">Secondary Menu</h3>
+            <!-- nav-pills: Indicates a pill menu -->
+            <ul class="nav flex-column nav-pills">
+              <li class="nav-item">
+                <!-- nav-link: used for NAVIGATION LINK, active: used to ACTIVE button which changes BACKGROUND -->
+                <a href="#" class="nav-link active">
+                  Active
+                </a>
+                <!-- nav-link: used for NAVIGATION LINK -->
+                <a href="#" class="nav-link">
+                  Link
+                </a>
+                <!-- nav-link: used for NAVIGATION LINK -->
+                <a href="#" class="nav-link">
+                  Link
+                </a>
+                <!-- nav-link: used for NAVIGATION LINK, disabled: used to DISABLE button -->
+                <a href="#" class="nav-link disabled">
+                  Disabled
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
